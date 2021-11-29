@@ -11,7 +11,21 @@
       "name": "legacykeystore_test"
     },
     {
-      "name": "termcolor_device_test_src_lib"
+      "name": "termcolor_test_src_lib"
+    }
+  ],
+  "presubmit-rust": [
+    {
+      "name": "keystore2_test"
+    },
+    {
+      "name": "keystore2_vintf_test"
+    },
+    {
+      "name": "legacykeystore_test"
+    },
+    {
+      "name": "termcolor_test_src_lib"
     }
   ]
 }
