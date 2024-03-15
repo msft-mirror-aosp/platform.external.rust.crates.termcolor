@@ -1,23 +1,20 @@
 # This project was upgraded with external_updater.
-# Usage: tools/external_updater/updater.sh update rust/crates/termcolor
-# For more info, check https://cs.android.com/android/platform/superproject/+/master:tools/external_updater/README.md
+# Usage: tools/external_updater/updater.sh update external/rust/crates/termcolor
+# For more info, check https://cs.android.com/android/platform/superproject/+/main:tools/external_updater/README.md
 
 name: "termcolor"
 description: "A simple cross platform library for writing colored text to a terminal."
 third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://crates.io/crates/termcolor"
-  }
-  url {
-    type: ARCHIVE
-    value: "https://static.crates.io/crates/termcolor/termcolor-1.2.0.crate"
-  }
-  version: "1.2.0"
   license_type: NOTICE
   last_upgrade_date {
-    year: 2023
+    year: 2024
     month: 2
-    day: 6
+    day: 7
+  }
+  homepage: "https://crates.io/crates/termcolor"
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/termcolor/termcolor-1.4.1.crate"
+    version: "1.4.1"
   }
 }
